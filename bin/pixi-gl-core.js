@@ -1,6 +1,6 @@
 /*!
  * pixi-gl-core - v1.0.3
- * Compiled Thu, 12 Jan 2017 11:04:40 UTC
+ * Compiled Thu, 12 Jan 2017 11:12:06 UTC
  *
  * pixi-gl-core is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -1495,7 +1495,7 @@ var glslSetArray = function glslSetArray(gl, location, type, value) {
             gl.uniform4iv(location, value);
             break;
         case 'sampler2D':
-            gl.uniorm1iv(location, value);
+            gl.uniform1iv(location, value);
             break;
     }
 };
