@@ -1,6 +1,6 @@
 /*!
  * pixi-gl-core - v1.0.3
- * Compiled Thu, 12 Jan 2017 11:12:06 UTC
+ * Compiled Thu, 12 Jan 2017 14:20:12 UTC
  *
  * pixi-gl-core is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -1403,7 +1403,7 @@ var generateGetter = function(name)
 };
 
 var glslSetSingle = function glslSetSingle(gl, location, type, value) {
-    switch(uniform.type) {
+    switch(type) {
         case 'float':
             gl.uniform1f(location, value);
             break;
